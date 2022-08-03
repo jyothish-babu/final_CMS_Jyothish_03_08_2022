@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+
+<class name="studentHibernate.Student" table="addstudent">
+<id name="id">  
+ <generator class="increment"></generator>  
+ </id>
+ <property name="stname"></property>  
+ <property name="staddress"></property>  
+ <property name="stdepartment"></property>
+ <property name="gender"></property>  
+ <property name="stphone"></property>  
+ <property name="stemail"></property>
+ <property name="stpassword"></property>
+</class>
+</hibernate-mapping>
